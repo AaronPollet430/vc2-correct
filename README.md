@@ -1,6 +1,4 @@
-# vc2-correct
-
-# 2022-frontend-vc2-1
+# 2022-frontend-vc2 correct
 
 1. cd naar de juiste lokale repo
 2. `npm install --global yarn` indien geen yarn geïnstalleerd
@@ -11,5 +9,12 @@
 
 e-mailadres: jan@email.com
 wachtwoord: Azerty123!
-# vc2-test
-# vc2-correct
+
+correcte repo met compilerende code GitHub
+https://github.com/AaronPollet430/vc2-correct
+
+1. draai backend in een ander terminal
+2. start frontend code
+
+repo met commits:
+https://github.com/HoGentProjectenII/2022-frontend-vc2-1
