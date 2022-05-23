@@ -1,0 +1,153 @@
+
+{
+    "Searchbar":{
+       "titel": "Find your destination",
+       "bestemming":"Destination",
+       "bestemmingInput":"City, Region, ...",
+       "incheck":"Check-in",
+       "uitcheck":"Check-out",
+       "wanneer":"When?",
+       "AantalP":"Number of persons",
+       "dropdown":"Or type an option yourself",
+       "zoeken":"Search"
+    },
+    "DienstenHome":{
+        "titel": "Our Partners",
+        "knop":"More info"
+    },
+    "Footer":{
+        "info":"Useful information",
+        "overons":"About us",
+        "contact":"Contact",
+        "faq":"FAQ",
+        "verzekering":"Insurance",
+        "nieuwsbrief":"Sign up for the newsletter",
+        "inschrijven":"Register",
+        "email":"Your e-mail address",
+        "volgons":"Follow us",
+        "voorwaarden":"General Terms and Conditions | Privacy statement and policy | WebTweak © 2022"
+    },
+    "MediumCard":{
+        "bekijk":"View"
+    },
+    "NavBar":{
+        "brand":"HoySpain",
+        "home":"Home",
+        "accomodaties":"Accommodations",
+        "host":"Become a host",
+        "diensten":"Services",
+        "contact":"Contact",
+        "inloggen":"Login",
+        "registreren":"Register",
+        "account": "My account"
+    },
+    "TopListing":{
+        "toppers":"View our top sellers!"
+    },
+    "ZoekResultaat":{
+        "nacht":" / night",
+        "info":"more info",
+
+        "gasten":"guests",
+        "kamer":"room",
+        "kamers":"Rooms",
+        "badkamer":"bathroom",
+        "badkamers":"bathrooms",
+        "zwembad":"pool",
+        "parking":"parking",
+        "wifi":"wifi",
+        "huisdier":"pets allowed",
+        "tv":"TV"
+    },
+    "Accomodaties":{
+        "titel":"Accommodations",
+        "resultaten":"results found"
+    },
+    "Inloggen":{
+        "emailIncor":"E-mail address is not correct.",
+        "wachtwoordIncor":"The password is incorrect.",
+        "eenfoutje":"An error has occurred during login.",
+        "titel":"Login",
+        "email":"E-mail address",
+        "ww":"Password",
+        "inlog":"Login"
+    },
+    "Registreer":{
+        "naamCorrectie":"Name may only consist of letters, hyphens and apostrophe.",
+        "invalidEmail":"E-mail address is not correct.",
+        "invalidPasswoord":"The password must have a length of at least 8 characters with 1 lower case letter, 1 upper case letter, 1 number and 1 special character",
+        "2eWWinvalid":"The repeated password is incorrect.",
+        "telefoonInvalid":"This is not a valid phone number.",
+        "foutje":"An error has occurred during registration.",
+        "titel":"Register",
+        "voornaam":"First name",
+        "achternaam":"Surname",
+        "email":"E-mail address",
+        "ww":"Password",
+        "bevestigWW":"Confirm password",
+        "telefoon":"Telephone number",
+        "registeren":"Register"
+    },
+
+    "Filter":{
+        "titel": "Filters",
+        "kamers":"Rooms",
+        "aantalKamers": "Number of rooms",
+        "prijsPnacht":"price per night",
+        "prijsPnachtInput":"use the slider for min- and maximum price",
+        "score":"guest score",
+        "types":"accommodation types",
+        "accoTypeLabels": {
+            "huis": "House",
+            "appartement": "Apartment",
+            "loft": "Loft",
+            "b&b": "Bed & Breakfast",
+            "privé": "Private room",
+            "gedeeld": "Shared rooms",
+            "villa" : "Villa"
+        },
+        "facili":"facilities",
+        "faciliLabels": {
+            "zwembad": "pool",
+            "parking": "parking",
+            "wifi": "wifi",
+            "strand": "beach",
+            "auto":"car rental"
+        },
+        "resultaat": "resultaat",
+        "resultaten": "resultaten"
+    },
+    "activiteiten":{
+        "titel":"Activities",
+        "picks":"Top Picks",
+        "tours":"Tours",
+        "resto":"Restaurants",
+        "bars":"Bars"
+    },
+    "Verhuurder":{
+        "titel":"Become a landlord?",
+        "verhuurNu":"Rent out your holiday home quickly and easily!",
+        "info":"More info",
+        "vragen":"Still have questions?",
+        "stuur":"Send your question via the link below",
+        "contacteer":"Contact us",
+        "bekijkFaq":"Or see the FAQ",
+        "faq":"FAQ"
+    },
+    "contact":{
+        "vragen":"Still have questions?",
+        "stelZe":"Ask the contact person.",
+        "contact":"Contact"
+    },
+    "Information":{
+        "locatie":"Location",
+        "prijzen":"Prices",
+        "slaapkamer":"Bedroom(s)",
+        "bedden":"Bed(s)",
+        "badkamer":"Bathroom(s)",
+        "beschikt":"This accommodation features:",
+        "ervaring":"Experiences of our travellers",
+        "weerbericht":"Weather forecast in ",
+        "dezeWeek":" this week"
+    }
+}

@@ -1,0 +1,72 @@
+.booking-confirmation-main {
+  background-image: url('../../img/costadelsol.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bookingConfirmation-container {
+  padding: 3rem 0rem 3rem 0rem;
+  display:flex;
+  justify-content: center;
+}
+
+.bookingConfirmation-container .card {
+  width: 40rem;
+  height: 45rem;
+  color: #077B88;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bookingConfirmation-container .card-header {
+  background-color: #077B88;
+  color: white;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bookingConfirmation-container .card-header,
+.bookingConfirmation-container .card-body {
+  padding: 1rem 2rem;
+}
+
+.bookingConfirmation-container .card .bookingConfirmations-btns .col {
+  display: flex;
+  justify-content: center;
+}
+
+.bookingConfirmation-container .card-body .row .col:first-child {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.bookingConfirmation-container .card .bookingConfirmations-btns button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  height: 3rem;
+}
+
+.bookingConfirmation-container .card-body h5 {
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.bookingConfirmation-container .card-body .confirm-tot-price h5{
+  background-color: #F3CC91;
+  color: #077B88;
+}
+
+.confirm-tot-price {
+  border-top: 2px solid #077B88;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.confirm-tot-price h5{
+  font-weight: bold;
+}

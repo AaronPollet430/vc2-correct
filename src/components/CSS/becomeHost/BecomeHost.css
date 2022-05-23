@@ -1,0 +1,41 @@
+main {
+  background-image: url('../../img/costadelsol.jpg');
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.becomeHost-container {
+  display: flex;
+  justify-content: center;
+}
+
+.becomeHost-container .card {
+  width: 60%;
+  margin: 50px;
+}
+
+.becomeHost-container .col {
+  margin: 10px 10px;
+}
+.linkblok {
+  width: 230px !important;
+  margin-left: 0px !important;
+  position: sticky !important;
+  bottom: 10px;
+  top: 10px;
+}
+.blokwrapper1{
+  position: relative;
+  height: 100%;
+}
+.blokwrapper2{
+  position: relative;
+  height: 100%;
+}
+@media (max-width:1480px){
+ .blokwrapper2{
+   visibility: hidden;
+   height: 0px;
+ }
+}

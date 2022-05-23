@@ -1,0 +1,319 @@
+/* CONTENT */
+.myBookings-container {
+  background-color: #ecf4fe;
+}
+
+.myBookings-container .dashboard-menu {
+  background-color: #077b88;
+  padding: 0px;
+  width: 20rem;
+  height: 50rem;
+  color: white;
+  margin: 0px;
+}
+
+.myBookings-container .dashboard-menu a {
+  color: white;
+}
+
+.myBookings-container .dashboard-menu h3 {
+  padding: 2rem 2rem;
+}
+
+.myBookings-container .dashboard-menu .nav-link {
+  padding: 0.5rem 2rem;
+}
+
+.myBookings-container .dashboard-menu a {
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.myBookings-container .dashboard-menu a:hover {
+  background-color: #f3cc91;
+  color: #077b88;
+  border-bottom: none !important;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.myBookings-container .user-profile-menu .logout-btn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+  width: 100%;
+}
+
+.myBookings-container .dashboard-menu .logout-btn button {
+  background-color: #f36363 !important;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14pt !important;
+}
+
+.myBookings-container .dashboard-menu .logout-btn button:hover {
+  background-color: #f3cc91 !important;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14pt !important;
+}
+
+.myBookings-container .user-profile-menu {
+  padding-top: 1.5rem;
+  border-top: 1px solid #ecf4fe;
+}
+
+.myBookings-container .user-profile-menu a {
+  width: 100%;
+}
+
+.myBookings-container .user-role {
+  padding: 0rem 2rem;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.myBookings-content {
+  padding: 2rem 5rem;
+  color: #077b88;
+  width: 100%;
+}
+
+.myBookings-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #f3cc91;
+  width: 19rem;
+  margin-bottom: 2rem;
+}
+
+/* BOOKINGS - SEARCH BAR */
+.myBookings-content .input-fields {
+  border-bottom: 3px solid #077b88;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.myBookings-content .input-fields input {
+  height: 3rem;
+  width: 40rem;
+  float: left;
+}
+
+.myBookings-content .input-fields .col:first-child button {
+  width: 40rem;
+  float: left;
+  display: inline;
+}
+
+.myBookings-content .input-fields .col:nth-last-child(2),
+.myBookings-content .input-fields .col:last-child {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.myBookings-content .search-col .btn,
+.myBookings-content #dropdown-basic-button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+/* CARD */
+.myBookings-content .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myBookings-content .card img {
+  height: 15rem !important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.myBookings-content .card-body {
+  padding: 1rem 2rem;
+}
+
+.myBookings-content .card-title {
+  padding: 0px;
+  font-weight: bold;
+}
+
+.myBookings-content .info-title {
+  font-weight: bold;
+  margin-right: 1.5rem;
+}
+
+.myBookings-content .card .seeMore-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.myBookings-content .card .seeMore-btn button {
+  width: 7rem;
+  border-radius: 10px;
+}
+
+/* VIEW BOOKING PAGE */
+.viewBooking-container {
+  padding: 2rem 5rem;
+  color: #077b88;
+  width: 100%;
+  background-color: #ecf4fe;
+}
+
+.viewBooking-container h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #f3cc91;
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+
+.viewBooking-content {
+  display: flex;
+  justify-content: center;
+}
+
+.myBookings-content .seeMore-btn a,
+.viewBooking-container .back-col a {
+  height: 3rem;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #077b88;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myBookings-content .seeMore-btn a:hover,
+.viewBooking-container .back-col a:hover {
+  color: #077b88;
+  background-color: #f3cc91;
+  font-weight: bold;
+}
+
+.viewBooking-container .card {
+  width: 40rem;
+  color: #077b88;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.viewBooking-container .card-header {
+  background-color: #077b88;
+  color: white;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.viewBooking-container .card-header,
+.viewBooking-container .card-body {
+  padding: 1rem 2rem;
+}
+
+.viewBooking-container .card .viewBookings-btns .col {
+  display: flex;
+  justify-content: center;
+}
+
+.viewBooking-container .card-body .row .col:first-child {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.viewBooking-container .card .viewBookings-btns button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  height: 3rem;
+}
+
+.viewBooking-container .card-body h5 {
+  background-color: #077b88;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.viewBooking-container .actions-card,
+.viewBooking-container .contactPerson-card {
+  width: 100%;
+}
+
+.viewBooking-container .actions-card .card-body {
+  background-color: white;
+  padding: 0px;
+  border-radius: 10px;
+  padding-bottom: 0.5rem;
+}
+
+.viewBooking-container .actions-card .card-body .carousel {
+  height: 15rem;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0.5rem;
+  object-fit: fit !important;
+}
+
+.viewBooking-container .actions-card .card-body .carousel img {
+  border-radius: 10px 10px 0px 0px;
+  height: 15rem !important;
+  width: 100%;
+  object-fit: fit !important;
+}
+
+.viewBooking-container .actions-card .card-body .carousel-control-prev-icon,
+.viewBooking-container .actions-card .card-body .carousel-control-next-icon {
+  background-color: #077b88;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.viewBooking-container .actions-card .card-body .action-btns {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0px;
+}
+
+.viewBooking-container .actions-card .card-body .viewAcco-btn a,
+.viewBooking-container .actions-card .card-body .print-btn a,
+.viewBooking-container .actions-card .card-body .cancelReq-btn a {
+  text-decoration: none;
+  background-color: #077b88;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  width: 18rem;
+}
+
+.viewBooking-container .actions-card .card-body .cancel-btn a {
+  text-decoration: none;
+  background-color: #f36363;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  width: 18rem;
+}
+
+.viewBooking-container .actions-card .card-body .action-btns a:hover {
+  background-color: #f3cc91;
+  color: #077b88;
+  font-weight: bold;
+}

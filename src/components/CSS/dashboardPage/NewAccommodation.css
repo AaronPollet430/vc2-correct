@@ -1,0 +1,341 @@
+.newAcco-content {
+  color: #077B88;
+  padding: 2rem 3rem;
+}
+.newAcco-card {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco-content .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 40rem;
+}
+
+.newAcco-content .card-header {
+  background-color: #077B88;
+  color: white;
+  font-size: 18pt;
+  font-weight: bold;
+  border-radius: 6px 6px 0px 0px !important;
+  padding: 1rem 2rem;
+}
+
+.newAcco-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 29rem;
+  margin-bottom: 2rem;
+}
+
+.newAcco-content .card-body {
+  padding: 1rem 2rem;
+}
+
+.newAcco-content .card .accoType {
+  display: flex;
+  align-items: center;
+}
+
+.newAcco-content .card .accoType .dropdown button{
+  width: 10rem;
+}
+
+.newAcco-content .card .next-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco-content .card .next-btn button{
+  width: 10rem;
+}
+
+/* STEP 2 */
+.newAcco2-card  .card{
+  width: 30rem !important;
+}
+
+.newAcco2-card p {
+  font-weight: bold;
+}
+
+.newAcco2-card .row {
+  display: flex;
+  jusify-content: center;
+  align-items: center;
+}
+
+.newAcco2-card .data-input {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.newAcco2-card .data-input button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.newAcco2-card .data-input input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 2rem;
+}
+
+.newAcco2-card .btns {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+.newAcco2-card .btns .col:first-child {
+  display: flex;
+  justify-content: start;
+}
+
+.newAcco2-card .btns .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.newAcco2-card a {
+  text-decoration: none;
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+.newAcco2-card a:hover {
+  background-color: #F3CC91;
+  color: #077B88;
+  font-weight: bold;
+}
+
+/* STEP 3 */
+.newAcco-content .newAcco3-card {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco-content .newAcco3-card .card {
+  width: 45rem !important;
+}
+
+.newAcco-content .newAcco3-card p {
+  font-weight: bold;
+}
+
+.newAcco3-card .row .col {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco3-card label {
+  color: #077B88;
+  height: 8rem;
+  width: 10rem;
+  border: 2px solid #077B88;
+  border-radius: 10px;
+}
+
+.newAcco3-card label:hover {
+  background-color: #F3CC91;
+  border: 2px solid #077B88;
+  color: #077B88;
+  font-weight: bold;
+}
+
+.newAcco3-card .btns {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+.newAcco3-card .btns .col:first-child {
+  display: flex;
+  justify-content: start;
+}
+
+.newAcco3-card .btns .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.newAcco3-card a {
+  text-decoration: none;
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+.newAcco3-card a:hover {
+  background-color: #F3CC91;
+  color: #077B88;
+  font-weight: bold;
+}
+
+/* STEP 4 */
+.newAcco4-card .step4 .row-addPic {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco4-card .step4 .addPic {
+  border: 2px solid #077B88;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 36rem;
+  height: 20rem;
+  padding: 2rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.newAcco4-card .step4 ul {
+  margin-left: 1.2rem;
+}
+
+.newAcco4-card .btns {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+.newAcco4-card .btns .col:first-child {
+  display: flex;
+  justify-content: start;
+}
+
+.newAcco4-card .btns .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.newAcco4-card a {
+  text-decoration: none;
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+.newAcco4-card a:hover {
+  background-color: #F3CC91;
+  color: #077B88;
+  font-weight: bold;
+}
+
+/* STEP 5 */
+.newAcco5-card {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco5-card .card {
+  width: 40rem;
+}
+
+.newAcco5-card .card .row:first-child p {
+  font-weight: bold;
+}
+
+.newAcco5-card .card .ppn,
+.newAcco5-card .card .ppw {
+  border-bottom: 1px solid #077B88;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.newAcco5-card .btns {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+.newAcco5-card .btns .col:first-child {
+  display: flex;
+  justify-content: start;
+}
+
+.newAcco5-card .btns .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.newAcco5-card a {
+  text-decoration: none;
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+.newAcco5-card a:hover {
+  background-color: #F3CC91;
+  color: #077B88;
+  font-weight: bold;
+}
+
+/* STEP 6 */
+.newAcco6-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.newAcco6-card .carousel {
+  height: 20rem;
+  width: 40rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.newAcco6-card .carousel img {
+  height: 20rem !important;
+  object-fit: cover !important;
+}
+
+.newAcco6-card .carousel .carousel-control-prev,
+.newAcco6-card .carousel .carousel-control-next{
+  background-color: #077B88;
+  color: white;
+  height: 5rem;
+  width: 5rem;
+  margin: auto 1.5rem;
+}
+
+.newAcco6-card .confirm-titles {
+  font-weight: bold;
+}
+
+.newAcco6-card .btns {
+  margin: 2rem 0rem 0.5rem 0rem;
+}
+
+.newAcco6-card .btns .col:first-child {
+  display: flex;
+  justify-content: start;
+}
+
+.newAcco6-card .btns .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.newAcco6-card a {
+  text-decoration: none;
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+}
+
+.newAcco6-card a:hover {
+  background-color: #F3CC91;
+  color: #077B88;
+  font-weight: bold;
+}

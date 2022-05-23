@@ -1,0 +1,149 @@
+.footer-container {
+  background-color: white;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-left: 1%; */
+}
+
+.footer-container .important-info{
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.footer-container .input-group{
+  display:flex !important;
+  flex-direction: row;
+}
+
+.footer-container h5, .footer-container h2 {
+  color: #077B88;
+  font-weight: bold;
+}
+
+.footer-container a {
+  text-decoration: none !important;
+  color: #077B88 !important;
+  padding-bottom: 1px;
+}
+.important-info{
+  margin-left: 2%;
+}
+.footer-container .important-info a:hover {
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+}
+
+.footer-container ul {
+  list-style: none;
+}
+
+.footer-container i {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.footer-container i:hover {
+  color: #F3CC91;
+}
+
+.website-rights {
+  background-color: #077B88;
+  color: white !important;
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  padding: 10px;
+  margin-bottom: 0 !important;
+}
+
+/* Social Icons */
+.social-media {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social-logo {
+  color: #077B88;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.website-rights {
+  color: #077B88;
+  margin-bottom: 16px;
+}
+.rowWrapper{
+  max-width: 90%;
+  margin-left: 10%;
+}
+.rightside{
+  margin-left: 50%;
+}
+@media (max-width: 1080px) {
+  .footer-links {
+    padding-top: 2rem;
+  }
+
+  .footer-input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .footer-link-wrapper {
+    flex-direction: column;
+  }
+
+  .social-media-wrap {
+    flex-direction: column;
+  }
+  .card-column{
+    align-items: center;
+    flex-direction: column;
+  }
+  .rowWrapper{
+    display: flex;
+    justify-content: safe;  
+    flex-direction: column;
+    max-width: 90%;
+    padding-left: 5%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .rightside{
+    display: flex;
+  }
+  .rowWrapper{
+    display: flex;
+    justify-content: safe;  
+    
+  }
+  .newsletter{
+    max-width: 30%;
+  }
+}

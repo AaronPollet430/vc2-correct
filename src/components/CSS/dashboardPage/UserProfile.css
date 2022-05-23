@@ -1,0 +1,152 @@
+/* CONTENT */
+.userProfile-content {
+  padding: 2rem 5rem;
+  color: #077B88;
+}
+
+.userProfile-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 12.5rem;
+  margin-bottom: 2rem;
+}
+
+.userProfile-content .edit-btn a{
+  height: 3rem;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #077B88;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userProfile-content .edit-btn a:hover{
+  color: #077B88;
+  background-color: #F3CC91;
+  font-weight: bold;
+}
+
+.userProfile-content .edit-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.userProfile-content button {
+  width: 10rem;
+}
+
+.userProfile-content .card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 25rem;
+}
+
+.userProfile-content .card-header {
+  background-color: #077B88;
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+  border-radius: 6px 6px 0px 0px !important;
+  padding: 1rem 1.5rem;
+}
+
+.userProfile-content .card-header .col:last-child {
+  display: flex;
+  justify-content: right;
+}
+
+.userProfile-content .card-body {
+  padding: 1rem 1.5rem;
+}
+
+.userProfile-content .info-titles {
+  font-weight: bold;
+}
+
+/* USER PROFILE EDIT MODE */
+
+.userProfileEdit-content {
+  padding: 2rem 5rem;
+  color: #077B88;
+}
+
+.userProfileEdit-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 24rem;
+  margin-bottom: 2rem;
+}
+
+.userProfileEdit-content button {
+  width: 10rem;
+}
+
+.userProfileEdit-content .save-btn a,
+.userProfileEdit-content .back-btn a {
+  height: 3rem;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #077B88;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userProfileEdit-content .save-btn a:hover,
+.userProfileEdit-content .back-btn a:hover{
+  color: #077B88;
+  background-color: #F3CC91;
+  font-weight: bold;
+}
+
+.userProfileEdit-content .back-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.userProfileEdit-content .userProfileEdit-card {
+  display: flex;
+  justify-content: center;
+}
+
+.userProfileEdit-content .card {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50rem;
+}
+
+.userProfileEdit-content .card-header {
+  background-color: #077B88;
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 1rem 1.5rem;
+}
+
+.userProfileEdit-content .card-body {
+  padding: 1rem 1.5rem;
+}
+
+.userProfileEdit-content .save-btn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem 0rem 0rem;
+}

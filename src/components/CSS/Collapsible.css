@@ -1,0 +1,17 @@
+.collapsible .content {
+  padding: 6px;
+  border-radius: 5px;
+}
+.collapsible .header {
+  display: flex;
+  background-color: white;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.prijs-slider {
+  color: #077b88;
+}

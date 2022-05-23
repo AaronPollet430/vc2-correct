@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+:root {
+  --primary-color: #077B88;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+main {
+  padding-top: 30px;
+  background-color: #ECF4FE;
+}
+
+.hoyspain-h1{
+  /* text-align: center; */
+  color: #077b88;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ECF4FE;
+}
+
+.navbar-brand {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.navbar a{
+  color: #077B88 !important;
+  margin: 5px 15px;
+  padding: 0px;
+}
+
+.navbar a:hover {
+  color: #077B88;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+
+.navbar .nav-item {
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #F3CC91 !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: #077B88;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: white !important;
+  padding: 0.5rem 1rem;
+  margin: 0px;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #F3CC91;
+  color: #077B88 !important;
+}
+
+#collasible-nav-dropdown-acc {
+  background-color: transparent !important;
+  border-radius: 10px !important;
+  border: 3px solid #F3CC91 !important;
+}
+
+#collasible-nav-dropdown-acc:hover {
+  background-color: #F3CC91 !important;
+  border: 3px solid #077B88 !important;
+}
+
+#collasible-nav-dropdown:hover{
+  color: #F3CC91 !important;
+  border: none !important;
+}
+
+.section {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Mobile Styles */
+@media (max-width: 1200px) {
+  .hide-sm {
+    display: none;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Text Styles */
+  .x-large {
+    font-size: 3rem;
+  }
+
+  .large {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  /* Navbar */
+  .navbar {
+    text-align: right;
+  }
+
+  .navbar a:hover {
+    background-color: #F3CC91;
+    font-weight: bold;
+  }
+
+
+  /* Home pagina styles*/
+  .container .home-container .search-bar-container {
+    border: 5px solid red;
+  }
+  .top-picks-container {
+    border: 5px solid red;
+  }
+}

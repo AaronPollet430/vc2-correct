@@ -1,0 +1,204 @@
+.viewUser-content,
+.editUserRole-content,
+.adminUsers-content {
+  padding: 2rem 5rem;
+  color: #077B88;
+  width: 100%;
+}
+
+.viewUser-content h1,
+.editUserRole-content h1,
+.adminUsers-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  margin-bottom: 2rem;
+}
+
+/* CONTENT */
+
+.adminUsers-content h1 {
+  width: 12.2rem;
+}
+
+.adminUsers-content .users-container .card-header .row .col-lg-2 {
+  display: flex;
+  justify-content: end;
+  padding: 0px;
+  margin: 0px;
+}
+
+.adminUsers-content .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none !important;
+  width: 70rem;
+  margin-bottom: 3rem;
+}
+
+.editUserRole-content .card-header,
+.viewUser-content .card-header,
+.adminUsers-content .card-header {
+  background-color: #077B88;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px 10px 00px 0px !important;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.adminUsers-content .card-body {
+  padding: 1rem 2rem;
+}
+
+/* USERS CONTENT */
+
+.adminUsers-content .users-container .users-titles {
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #077B88;
+}
+
+.adminUsers-content .users-container .card-header button {
+  border: 2px solid white !important;
+  border-radius: 10px;
+  width: 10rem;
+  margin: 0px;
+}
+
+.adminUsers-content .users-container .card-header button:hover {
+  border: 2px solid #F3CC91 !important;
+  border-radius: 10px;
+  width: 10rem;
+  margin: 0px;
+}
+
+.adminUsers-content .users-container .card-header .form-check {
+  color: #077B88;
+  font-weight: normal;
+  padding: 3px 2rem;
+  margin-left: 0.5rem;
+}
+
+.adminUsers-content .users-container .card-header .dropdown-item {
+  color: #077B88;
+}
+
+.adminUsers-content .users-container .card-header .dropdown-item:hover {
+  background-color: #F3CC91 !important;
+  font-weight: bold;
+}
+
+.adminUsers-content .users-container .users-titles h6 {
+  font-weight: bold;
+}
+
+.adminUsers-content .users-container .users-data {
+  padding: 0.5rem 0px;
+  border-bottom: 1px solid #077B88;
+  margin-bottom: 1rem;
+}
+
+.adminUsers-content .users-container .users-data .btn {
+  margin: 0px;
+  width: 10rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+/* REQUESTS CONTENT */
+.adminUsers-content .requests-container .requests-titles {
+  border-bottom: 3px solid #077B88;
+}
+
+.adminUsers-content .requests-container .requests-data {
+  border-bottom: 1px solid #077B88;
+}
+
+.adminUsers-content .requests-container .requests-titles h6 {
+  font-weight: bold;
+}
+
+.adminUsers-content .requests-container .requests-data h6 {
+  padding-top: 1.2rem;
+}
+
+.adminUsers-content .requests-container .requests-data .btn {
+  margin-left: 0px;
+  width: 10rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+/* VIEW USER PAGE */
+
+.viewUser-content h1 {
+  width: 16rem;
+}
+
+.editUserRole-content .card,
+.viewUser-content .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none !important;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.editUserRole-content h5,
+.viewUser-content h5 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5rem 0px;
+  margin: 0px;
+}
+
+.editUserRole-content .data-title,
+.viewUser-content .data-title,
+.viewUser-content .acco-titles h6 {
+  font-weight: bold;
+}
+
+.viewUser-content .acco-titles {
+  border-bottom: 2px solid #077B88;
+}
+
+.viewUser-content .acco-data {
+  padding-top: 1rem;
+  border-bottom: 1px solid #077B88;
+}
+
+.editUserRole-content a,
+.viewUser-content a {
+  text-decoration: none;
+  background-color: #077B88;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.editUserRole-content .back-btn,
+.viewUser-content .back-btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.editUserRole-content .action-btn,
+.viewUser-content .action-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.editUserRole-content .action-btn a,
+.viewUser-content .action-btn a {
+  display: flex;
+  justify-content: center;
+  width: 12rem;
+}
+
+/* EDIT USER ROLE */
+
+.editUserRole-content h1 {
+  width: 28rem;
+}

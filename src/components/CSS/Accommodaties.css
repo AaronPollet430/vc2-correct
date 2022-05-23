@@ -1,0 +1,60 @@
+.accommodatieMain > main {
+  background-image: url('../img/costadelsol.jpg');
+  background-size:auto;
+  background-repeat: no-repeat;
+}
+.accommodatiePagina {
+  display: flex;
+  justify-content: center;
+}
+
+.accommodatie_links {
+  min-width: 280px !important;
+  height: fit-content;
+  padding: 10px;
+  margin: 30px;
+  background: #077b88;
+  border-radius: 10px;
+}
+
+.accommodatie_rechts {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.accommodatie_rechts_lijst {
+  height: fit-content;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+.accommodatie_rechts > h2 {
+  color: #077b88;
+  border-bottom: 1px solid #077b88;
+  width: 19%;
+}
+
+.accommodatie_rechts > p {
+  color: #077b88;
+}
+
+.accommodatiePagina_info {
+  padding: 20px;
+}
+
+.accommodatiePagina_info > h2 {
+  margin-bottom: 30px;
+}
+
+.accommodatiePagina_info > p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.accommodatiePagina_info > button {
+  border-radius: 10px;
+  text-transform: inherit;
+  margin: 5px;
+}

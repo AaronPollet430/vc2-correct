@@ -1,0 +1,206 @@
+.diensten-container {
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 25px;
+}
+/*de drie onderste veranderen niks, help*/
+.cardCol{
+  height: 100%;
+}
+
+.cardContainer {
+  height:100%;
+  width: 400px;
+  min-width: 300px !important;
+}
+.cardimg {
+  height: 100%;
+}
+
+.row-cotainer {
+  height: 100%;
+}
+
+.diensten-container .col{
+  
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.diensten-container .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #077B88;
+  font-weight: bold;
+  /* width: 400px !important; */
+  height: 250px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.diensten-container h3 {
+  color: #077B88;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  padding: 2px;
+  
+  margin-left: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.diensten-container a{
+  font-size: 20px !important;
+  font-weight: bold;
+  background-color: #077B88 !important;
+  border: 2px white solid !important;
+  border-radius: 10px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.diensten-container a:hover{
+  font-size: 20px !important;
+  background-color: #ECF4FE !important;
+  border: 2px #077B88 solid !important;
+}
+/* .cardContainer{
+  height: 25px !important;
+  max-height: 30px !important;
+} */
+.diensten-container .card-img-overlay {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-size: cover;
+  padding-bottom: 0;
+  padding-top: 175px;
+}
+
+.diensten-container img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+/* SERVICE PAGE */
+.diensten-container {
+  padding: 3rem 20rem;
+  color: #077B88;
+  width: 100%;
+}
+
+.diensten-container h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  margin-bottom: 2rem;
+  width: auto;
+}
+
+.services-content h4 {
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+  background-color: #077B88;
+  color: white;
+}
+
+.services-content .transport-container,
+.services-content .cleaningServices-container,
+.services-content .technicalServices-container {
+  margin-bottom: 2rem !important;
+  padding: 0px;
+  width: 100%;
+}
+
+.services-content .transport-cards,
+.services-content .cleaningServices-cards,
+.services-content .technicalServices-cards
+{
+  display: flex;
+  padding: 0px;
+}
+
+.services-content .card {
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none !important;
+  width: 15.5rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.services-content .card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.services-content .card-img-overlay .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-content .card img {
+  border-radius: 10px;
+  border: none !important;
+  width: 15.5rem !important;
+  height: 10rem !important;
+}
+
+.services-content .card .btn {
+  border-radius: 10px;
+  border: none;
+  background-color: #077B88;
+  font-weight: bold;
+  font-size: 13pt;
+  padding: 0.5rem 1rem;
+  width: 8rem;
+  margin: 0px;
+}
+
+.services-content .card .btn:hover{
+  background-color: #F3CC91;
+  color: #077B88;
+}
+@media (max-width: 1000px){
+  .cardColum{
+    display: flex;
+    flex-direction: column;
+  }
+  .diensten-container .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #077B88;
+    font-weight: bold;
+    /* width: 400px !important; */
+    height: 250px;
+    align-items: center;
+    margin-left: 0%;
+  }
+  .diensten-container h3 {
+    color: #077B88;
+    font-weight: bold;
+    border-bottom: 3px solid #F3CC91;
+    padding: 2px;
+    
+    margin-left: 0px;
+    align-items: center;
+    display: flex;
+  }
+  .diensten-title{
+    min-width: 150px;
+  }
+}

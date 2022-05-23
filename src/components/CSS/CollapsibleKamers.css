@@ -1,0 +1,43 @@
+.collapsible .content {
+  padding: 6px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.collapsible .header {
+  display: flex;
+  background-color: white;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content .field > p {
+  font-size: 16px;
+}
+
+.content .field {
+  padding: 10px;
+}
+
+.button-plus {
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.button-minus {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.field input {
+  width: 50px;
+  margin: 0;
+}
+
+.field button {
+  border-radius: 5px;
+  width: 50px;
+  margin: 10px;
+}

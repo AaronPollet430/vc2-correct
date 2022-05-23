@@ -1,0 +1,45 @@
+/* .contactUs main {
+  background-image: url('../../img/costadelsol.jpg');
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+} */
+
+.contactUs-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.contactUs-container .card {
+  width: 40rem;
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #077B88;
+}
+
+.contactUs-container .card-header {
+  background-color: #ECF4FE;
+  font-size: 24px;
+  color: #077B88;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.contactUs-container .form-label {
+  font-weight: bold;
+}
+
+.contactUs-container .contact-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.contactUs-container .contact-btn button {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 10px;
+  font-size: 16pt !important;
+}

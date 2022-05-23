@@ -1,0 +1,389 @@
+.detailedPage-container {
+  background-image: url('../img/costadelsol.jpg') !important;
+  background-size: cover;
+  margin: 0px;
+  padding: 50px 300px 75px 335px;
+  color: #077B88;
+}
+
+.detailedPage-container .accommodation-title h1 {
+  font-weight: bold;
+  color: #077B88;
+}
+
+.photos-container,
+.overview-container,
+.information-container,
+.contactPerson-container {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photos-container,
+.information-container {
+  width: 50rem;
+}
+
+.overview-container,
+.contactPerson-container {
+  width: 22rem;
+}
+
+.carousel {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px 0px 0px 0px;
+  height: 28.5rem;
+}
+
+/* img {
+  object-fit: cover !important;
+  height: 28.5rem !important;
+} */
+
+.information-card .card-body{
+  padding: 0px !important;
+}
+
+.information-card .nav .nav-tabs {
+  padding: 0px;
+}
+
+.information-card button {
+  margin: 0px;
+}
+
+.card {
+  border-radius: 10px !important;
+  background-color: white;
+  padding: 0 !important;
+  margin: 15px 0px;
+}
+
+.list-info{
+  list-style: none;
+}
+
+button {
+  background-color: #077B88 !important;
+  color: #ecf4fe !important;
+  font-size: 13pt !important;
+  border: none !important;
+}
+
+button:hover {
+  background-color: #F3CC91 !important;
+  color: #077B88 !important;
+  font-weight: bold;
+  font-size: 13pt !important;
+  border: none !important;
+}
+
+button:active {
+  background-color: #077B88 !important;
+  color: #ecf4fe !important;
+  font-size: 13pt !important;
+}
+
+/* OVERVIEW */
+.overview-card {
+  height: 28.5rem;
+  width: 22rem;
+}
+
+.overview-card .card-header {
+  padding: 10px 30px;
+  background-color: #ECF4FE;
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.cal-row, .booking-row {
+  display: flex;
+  justify-content: center;
+}
+
+.cal-row {
+  background-color: #ECF4FE !important;
+}
+
+.cal-row, .booking-row button {
+  font-weight: bold;
+}
+
+.cal-row button {
+  width: 10rem !important;
+  font-size: 11pt !important;
+  border-radius: 7px;
+}
+
+.booking-row button {
+  margin: 10px 0px;
+  background-color: #F3CC91 !important;
+  border: 2px solid #077B88 !important;
+  color: #077B88 !important;
+  font-weight: bold;
+  font-size: 14pt !important;
+  width: 10rem !important;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.booking-row button:hover {
+  color: #F3CC91 !important;
+  background-color: #077B88 !important;
+  font-weight: bold;
+}
+
+.drp-buttons button {
+  width: 8rem;
+  font-size: 11pt !important;
+  font-weight: normal !important;
+}
+
+.overview-card .header-form {
+  margin-bottom: 15px;
+}
+
+.overview-card .card-body {
+  padding: 10px 20px;
+}
+
+.overview-card .card-body .row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.price-info h6,
+.price-info h5,
+.card-header h6 {
+  font-weight: bold;
+}
+
+.overview-card .card-header h6 {
+  margin: 0px !important;
+}
+
+.nrOfPpl {
+  padding: 0px !important;
+}
+
+.nrOfPpl .row:first-child {
+  align-items: center;
+  padding: 0px;
+}
+
+.nrOfPpl .form-label {
+  margin: 0px;
+}
+
+.nrOfPpl .form-control {
+  width: 3rem;
+  color: #077B88 !important;
+  border: 1px solid #077B88;
+  padding: 2px 13px;
+  margin: 0px 0.5rem;
+}
+
+.nrOfPpl .col-input {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nrOfPpl button {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 4px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-info ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.price-info li {
+  list-style: none;
+}
+
+.price-info .col {
+  padding: 0px;
+}
+
+.price-info-data {
+  display: flex;
+  justify-content: start;
+  margin-left: 3rem;
+}
+
+.price-info .totalPrice {
+  margin-top: 10px !important;
+  padding-top: 10px !important;
+  border-top: 2px solid #077B88;
+}
+
+.price-info .totalPrice .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.overview-card .card-header input {
+  background-color: transparent;
+  border: 2px solid #077B88;
+  color: #077B88;
+}
+
+.overview-card .booking-row a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Accommodatie informatie */
+.information-card ul {
+  background-color: #ECF4FE;
+  border-radius: 10px 10px 0px 0px !important;
+}
+
+.nav-tabs button {
+  background-color: #ECF4FE !important;
+  border-top: 2px solid #ECF4FE !important;
+  border-left: 2px solid #ECF4FE !important;
+  border-right: 2px solid #ECF4FE !important;
+  color: #077B88 !important;
+  font-weight: bold !important;
+  width: 12.45rem;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 13px 0px;
+}
+
+.nav-tabs button:hover {
+  border-bottom: none !important;
+  border-radius: 10px 10px 0px 0px !important;
+  background-color: #F3CC91 !important;
+  color: #077B88 !important;
+}
+
+/* .nav-link .active button:active{
+  background-color: red !important;
+  color: white;
+  border: none !important;
+} */
+
+.infotitels {
+  margin: 10px 0px 25px 25px;
+  font-weight: 600 !important;
+}
+
+.info-tekst {
+  margin: 10px 0px 25px 0px;
+}
+
+.map {
+  border-radius: 10px;
+  height: 13rem;
+  width: 22rem;
+  margin: 10px 25px 25px 0px;
+}
+
+/* FACILITEITEN TAB */
+.faciliteiten {
+  margin: 25px;
+  padding: 0px;
+}
+
+.faciliteiten p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.faciliteiten ul {
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+.faciliteiten li {
+  background-color: transparent;
+  margin: 0px;
+  padding: 3px 0px;
+  list-style-type: none;
+}
+
+/* REVIEW TAB */
+.review-container {
+  margin: 25px;
+}
+
+.review-container h5,
+.review-container h6 {
+  font-weight: bold;
+}
+
+.review {
+  margin: 20px 0px;
+  padding: 15px;
+  background-color: #077B88;
+  border-radius: 10px;
+  color: white;
+}
+
+/* WEATHER TAB */
+.weather-container {
+  margin: 25px;
+}
+
+.weather-container h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Contact persoon contacteren */
+
+.contactPerson-card {
+  color: #077B88;
+  height: 20rem;
+  width: 22rem;
+}
+
+.contactPerson-card .card-header{
+  background-color: #ECF4FE;
+  border-radius: 10px 10px 0px 0px !important;
+  border: none;
+  padding: 15px 30px;
+}
+
+.contactPerson-card .card-body {
+  padding: 15px 30px;
+}
+
+.contactPerson-card h5 {
+  font-weight: bold;
+}
+
+.contactPerson-info {
+  margin-top: 30px;
+}
+
+.contactPerson-name {
+  font-weight: bold;
+}
+
+.contactPerson-card .card-text {
+  margin-bottom: 5px;
+}
+
+.contactPerson-body button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.contact-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,135 @@
+.myResults-container {
+  background-color: #ECF4FE;
+}
+
+/* CONTENT */
+
+.myResults-content {
+  padding: 2rem 5rem;
+  color: #077B88;
+  width: 100%;
+}
+
+.myResults-content .card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myResults-content .card-header {
+  display: flex;
+  background-color: #077B88;
+  color: white;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 0px;
+  height: 4rem;
+  border: none;
+}
+
+.myResults-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 17rem;
+  margin-bottom: 2rem;
+}
+
+.myResults-content .card-header h4 {
+  padding: 1rem 2rem;
+}
+
+.myResults-content .card-header .col:last-child {
+  display: flex;
+  justify-content: end;
+}
+
+.myResults-content .card-header .dropdown {
+  background-color: transparent;
+}
+
+.myResults-content .card-body {
+  padding: 1rem 1.5rem;
+}
+
+.myResults-content .card-body .col {
+  margin: 0px;
+  padding: 5px;
+  width: 20rem;
+}
+
+.myResults-content .card-body .card-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.myResults-content .card-header button {
+  background-color: transparent !important;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 2px solid white !important;
+  border-radius: 10px;
+  width: 12rem;
+}
+
+.myResults-content .card-header button:hover {
+  background-color: #F3CC91 !important;
+  border: 2px solid #F3CC91 !important;
+  color: #077B88 !important;
+}
+
+.myResults-content .card-body .summary-titles,
+.myResults-content .card-body .col-titles {
+  font-weight: bold;
+}
+
+.myResults-content .card-body .col-titles {
+  border-right: 3px solid #ECF4FE;
+}
+
+.myResults-content .card-body .summary-titles {
+  border-bottom: 3px solid #ECF4FE;
+}
+
+/* PIE CHART */
+.myResults-content .circle-diagram {
+  width: 33rem !important;
+  height: 26rem;
+}
+
+.myResults-content .circle-diagram img {
+  height: 17rem !important;
+  width: 17rem !important;
+}
+
+.myResults-content .circle-diagram .legende {
+  margin: 1rem 2rem;
+  width: 5rem;
+}
+
+.myResults-content .circle-diagram .legende h5,
+.myResults-content .circle-diagram .legende .col{
+  padding: 0px;
+}
+
+/* GRAPH */
+
+.myResults-content .graph {
+  height: 26rem !important;
+  width: 46rem !important;
+}
+
+.myResults-content .graph img {
+  margin-top: 1rem;
+  height: 17rem !important;
+  width: 27rem !important;
+}
+
+.myResults-content .graph .graph-legende{
+  margin: 1rem 0rem 0rem 6rem;
+  width: 10rem !important;
+}
+
+.myResults-content .graph .graph-legende h5,
+.myResults-content .graph .graph-legende .col{
+  padding: 0px;
+}

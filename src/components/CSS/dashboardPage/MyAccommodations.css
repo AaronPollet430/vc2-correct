@@ -1,0 +1,541 @@
+.myAccommodations-container {
+  background-color: #ECF4FE;
+  display: flex;
+}
+
+.myAccommodations-content,
+.myAccoDetail-container,
+.blockMyAcco-content {
+  padding: 2rem 5rem;
+  color: #077B88;
+  width: 100%;
+}
+
+/* My Accommodations list */
+
+.myAccommodations-content h1{
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 24rem;
+  margin-bottom: 2rem;
+}
+
+.addAcco-col {
+  display: flex;
+  justify-content: right;
+}
+
+.addAcco-col .addAcco-btn {
+  height: 3rem;
+  width: 15rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #077B88;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**/
+.input-fields {
+  border-bottom: 3px solid #077B88;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+.input-fields input {
+  height: 3rem;
+  width: 40rem;
+  float:left;
+}
+
+.input-fields .col:first-child button {
+  width: 40rem;
+  float:left;
+  display:inline;
+}
+
+.input-fields .col:nth-last-child(2),
+.input-fields .col:last-child {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.input-fields .dropdown {
+  background-color: transparent;
+}
+
+.search-col .btn,
+#dropdown-basic-button{
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.myAccommodations-content .acco-card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  color: white;
+  background-color: #077B88;
+  width: 100% !important;
+  height: 15rem;
+}
+
+.myAccommodations-content .card-body {
+  padding: 0px;
+  width: 50rem;
+  display: flex;
+}
+
+.myAccommodations-content .card-body .col {
+  margin: 0px;
+  padding: 10px;
+  width: 50rem;
+}
+
+.myAccommodations-content .card-body h4 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  padding: 0px;
+}
+
+.myAccommodations-content .acco-card img {
+  border-radius: 7px 0px 0px 7px;
+  height: 15rem !important;
+  width: 20rem;
+  margin: 0px;
+}
+
+.myAccommodations-content .acco-card .acco-info {
+  margin: 1.5rem 2.5rem;
+}
+
+.myAccommodations-content .card-body .card-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.myAccommodations-content .card-body .card-btn button {
+  background-color: white !important;
+  color: #077B88 !important;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  width: 10rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.myAccommodations-content .card-body .card-btn button:hover {
+  background-color: #F3CC91 !important;
+  color: #077B88 !important;
+}
+
+.myAccommodations-content .card-body .card-btn {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.myAccommodations-content .card-body a {
+  text-decoration: none;
+  color: #077B88;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  height: 3rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myAccommodations-content .card-body a:hover {
+  font-weight: bold;
+  background-color: #F3CC91;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+/* My accommodation detail page*/
+.myAccoDetail-container h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 24rem;
+  margin-bottom: 2rem;
+}
+
+.myAccoDetail-container .card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100% !important;
+}
+
+.myAccoDetail-container .card-header {
+  background-color: #077B88;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+}
+
+.myAccoDetail-container .edit-col .edit-btn {
+  height: 3rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #077B88;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myAccoDetail-container .block-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #F36363;
+  padding: 0.5rem 1rem;
+  height: 3rem;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myAccoDetail-container .edit-col .edit-btn:hover,
+.myAccoDetail-container .block-btn:hover {
+  color: #077B88;
+  background-color: #F3CC91;
+  font-weight: bold;
+}
+
+
+.myAccoDetail-container .row:nth-child(2) .card-header .col:first-child {
+  display: flex;
+  justify-content: start;
+  align-items:center;
+}
+
+.myAccoDetail-container .card-header .filter {
+  display: flex;
+  justify-content: end;
+}
+
+.myAccoDetail-container .card-header .dropdown {
+  background-color: transparent;
+}
+
+.myAccoDetail-container .card-header .dropdown button{
+  border: 2px solid white !important;
+  border-radius: 10px;
+  width: 10rem;
+  height: 3rem;
+}
+
+.myAccoDetail-container .card-header .dropdown-menu {
+  padding: 1rem;
+  color: #077B88;
+}
+
+.myAccoDetail-container .card-body ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.myAccoDetail-container .info-col {
+  padding-left: 0px;
+}
+
+.myAccoDetail-container .photos-col {
+  padding-right: 0px;
+}
+
+.myAccoDetail-container .info-card {
+  margin-right: 2rem !important;
+}
+
+.myAccoDetail-container .info-card .nav-tabs {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #077B88;
+  border: none;
+}
+
+.myAccoDetail-container .info-card .nav-tabs .nav-link {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #077B88 !important;
+  color: white !important;
+  border-top: 2px solid #077B88 !important;
+  border-left: 2px solid #077B88 !important;
+  border-right: 2px solid #077B88 !important;
+  border-bottom: none !important;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  padding-left: 1rem;
+  font-weight: normal !important;
+}
+
+.myAccoDetail-container .info-card .nav-tabs .nav-link:hover {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #F3CC91 !important;
+  color: #077B88 !important;
+  font-weight: bold !important;
+}
+
+.myAccoDetail-container .info-card .nav-tabs .nav-link.active {
+  border-top: 2px solid #F3CC91 !important;
+  border-left: 2px solid #F3CC91 !important;
+  border-right: 2px solid #F3CC91 !important;
+  font-weight: bold !important;
+  color: #F3CC91 !important;
+}
+
+.myAccoDetail-container .info-card .nav-tabs .nav-link.active:hover {
+  font-weight: bold !important;
+  color: #077B88 !important;
+  background-color: #F3CC91 !important;
+}
+
+.myAccoDetail-container .info-card .data-title,
+.myAccoDetail-container .info-card h6
+{
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.myAccoDetail-container .info-card h6
+{
+  margin-bottom: 1rem;
+}
+
+.myAccoDetail-container .info-card .prices-tab h6 {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: #077B88;
+  color: white;
+  margin-left: 2rem;
+  width: auto;
+}
+
+.myAccoDetail-container .info-card .otherDisc {
+  margin-top: 2rem;
+}
+
+.myAccoDetail-container .photos-col .card-body {
+  padding: 0px;
+}
+
+.myAccoDetail-container .photos-col .carousel {
+  height: 25rem;
+  width: 100%;
+  margin: 0px;
+  border-radius: 0px 0px 10px 10px;
+  
+}
+
+.myAccoDetail-container .photos-col .carousel img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myAccoDetail-container .photos-col .carousel-control-prev,
+.myAccoDetail-container .photos-col .carousel-control-next
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myAccoDetail-container .photos-col .carousel-control-prev-icon,
+.myAccoDetail-container .photos-col .carousel-control-next-icon
+{
+  border-radius: 10px;
+  background-color: #077B88;
+  height: 3rem;
+  width: 3rem;
+}
+
+/* MY ACCOMMODATION: EDIT MODE*/
+
+.editAcco-content .otherDisc-titel {
+  border-top: 1px solid #077B88;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.editAcco-content .otherDisc-titel h6 {
+  font-weight: bold;
+}
+
+.editAcco-content .disc-container{
+  border-radius: 10px;
+  background-color: #077B88;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.editAcco-content .disc-container .delete-btn,
+.editAcco-content .disc-container .add-btn {
+  border-radius: 10px;
+  color: white;
+}
+
+.editAcco-content .disc-container .delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F36363;
+  width: 5rem;
+  height: 2.4rem;
+  padding: 0.5rem 1rem;
+}
+
+.editAcco-content .disc-container .add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ECF4FE;
+  width: 5rem;
+  height: 2.4rem;
+  padding: 0.5rem 1rem;
+  color: #077B88;
+}
+
+.editAcco-content .disc-container .disc-btns {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 0px;
+}
+
+.editAcco-content .disc-container .form-label:first-child {
+  padding-top: 0px;
+}
+
+.newAcco-content .next-btn a {
+  height: 3rem;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #077B88;
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newAcco2-card,
+.newAcco4-card {
+  display: flex;
+  justify-content: center;
+}
+
+.newAcco-content .next-btn a:hover {
+  color: #077B88;
+  background-color: #F3CC91;
+  font-weight: bold;
+}
+
+/* BLOCK ACCO PAGE */
+.blockMyAcco-content a {
+  text-decoration: none;
+}
+
+.blockMyAcco-content h1{
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 24rem;
+  margin-bottom: 2rem;
+  color: #077B88;
+}
+
+.blockMyAcco-content .card {
+  width: 40rem;
+  margin: auto;
+  border: none;
+}
+
+.blockMyAcco-content .card-header {
+  background-color: #077B88;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  border: none;
+}
+
+.blockMyAcco-content .card-body .block-container {
+  border-bottom: 1px solid #077B88;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blockMyAcco-content .block-container .delete-btn,
+.blockMyAcco-content .block-container .add-btn {
+  border-radius: 10px;
+  color: white;
+}
+
+.blockMyAcco-content .block-container .delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F36363;
+  width: 3rem;
+  height: 2.4rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+}
+
+.blockMyAcco-content .block-container .add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #077B88;
+  width: 3rem;
+  height: 2.4rem;
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.5rem;
+  color: white;
+}
+
+.blockMyAcco-content .block-container .block-btns {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding: 0px 0px 8px 0px;
+}
+
+.blockMyAcco-content .card .save-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.blockMyAcco-content .card .save-btn a {
+  background-color: #077B88;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+}

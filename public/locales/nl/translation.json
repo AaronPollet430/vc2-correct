@@ -1,0 +1,214 @@
+
+{
+    "Searchbar":{
+        "titel": "Vind jouw bestemming",
+        "bestemming":"Bestemming",
+        "bestemmingInput":"Stad, Regio, ...",
+        "incheck":"Inchecken",
+        "uitcheck":"Uitchecken",
+        "wanneer":"Wanneer?",
+        "AantalP":"Aantal Personen",
+        "dropdown":"Of typ zelf een optie",
+        "zoeken":"Zoeken"
+    },
+    "DienstenHome":{
+        "titel": "Onze partners",
+        "knop":"Meer info"
+    },
+    "Footer":{
+        "info":"Handige informatie",
+        "overons":"Over ons",
+        "contact":"Contact",
+        "faq":"FAQ",
+        "verzekering":"Verzekering",
+        "nieuwsbrief":"Schrijf je in voor de nieuwsbrief",
+        "inschrijven":"Inschrijven",
+        "email":"Jouw e-mailadres",
+        "volgons":"Volg ons",
+        "voorwaarden":"Algemene Voorwaarden | Privacyverklaring en -beleid | WebTweak © 2022"
+    },
+    "MediumCard":{
+        "bekijk":"Bekijk"
+    },
+    "NavBar":{
+        "brand":"HoySpain",
+        "home":"Home",
+        "accomodaties":"Accommodaties",
+        "host":"Host worden",
+        "diensten":"Diensten",
+        "contact":"Contact",
+        "inloggen":"Inloggen",
+        "registreren":"Registreren",
+        "account":"Mijn account",
+
+
+        "logout":"uitloggen"
+    },
+    "TopListing":{
+        "toppers":"Bekijk onze toppers!",
+        
+        "vanaf":"vanaf"
+    },
+    "ZoekResultaat":{
+        "nacht":" / nacht",
+        "info":"meer info",
+        "gasten":"gasten",
+        "kamer":"kamer",
+        "kamers":"kamers",
+        "badkamer":"badkamer",
+        "badkamers":"badkamers",
+        "zwembad":"zwembad",
+        "parking":"parking",
+        "wifi":"wifi",
+        "huisdier":"huisdieren toegelaten",
+        "tv":"TV"
+    },
+    "Accomodaties":{
+        "titel":"Accomodaties",
+        "resultaten":"resultaten gevonden"
+    },
+    "Inloggen":{
+        "emailIncor":"E-mailadres is niet correct.",
+        "wachtwoordIncor":"Het wachtwoord is niet correct.",
+        "eenfoutje":"Er is een fout opgelopen tijdens het inloggen.",
+        "titel":"Login",
+        "email":"E-mailadres",
+        "ww":"Wachtwoord",
+        "inlog":"Inloggen"
+    },
+    "Registreer":{
+        "naamCorrectie":"Naam mag alleen uit letters, koppeltekens en apostrof bestaan.",
+        "invalidEmail":"E-mailadres is niet correct.",
+        "invalidPasswoord":"Het wachtwoord moet minstens een lengte van 8 karakters met 1 kleine letter, 1 grote letter, 1 cijfer en 1 speciale teken bevatten",
+        "2eWWinvalid":"Het herhaalde wachtwoord is niet juist.",
+        "telefoonInvalid":"Dit is geen geldige telefoonnummer.",
+        "foutje":"Er is een fout opgetreden tijdens het registreren.",
+        "titel":"Registreren",
+        "voornaam":"Voornaam",
+        "achternaam":"Achternaam",
+        "email":"E-mailadres",
+        "ww":"Wachtwoord",
+        "bevestigWW":"Bevestig wachtwoord",
+        "telefoon":"Telefoonnummer",
+        "registeren":"Registreren"
+    },
+    "Filter":{
+        "titel": "Filters",
+        "kamers":"kamers",
+        "aantalKamers":"aantal kamers",
+        "prijsPnacht":"prijs per nacht",
+        "prijsPnachtInput": "gebruik de slider voor min-en maximumprijs",
+        "score":"gastenscore",
+        "types":"accommodatie types",
+        "accoTypeLabels": {
+            "huis": "Huis",
+            "appartement": "Appartement",
+            "loft": "Loft",
+            "b&b": "Bed & Breakfast",
+            "privé": "Privé kamers",
+            "gedeeld": "Gedeelde kamers",
+            "villa" : "Villa"
+        },
+        "facili":"faciliteiten",
+        "faciliLabels": {
+            "zwembad": "zwembad",
+            "parking": "parking",
+            "wifi": "wifi",
+            "strand": "strand",
+            "auto":"auto verhuur"
+        },
+        "resultaat": "resultaat",
+        "resultaten": "resultaten"
+    },
+    "activiteiten":{
+        "titel":"Activiteiten",
+        "picks":"Top Picks",
+        "tours":"Tours",
+        "resto":"Restaurants",
+        "bars":"Bars"
+    },
+    "Verhuurder":{
+        "titel":"Verhuurder worden?",
+        "verhuurNu":"Verhuur uw vakantiehuis snel en eenvoudig!",
+        "info":"Meer info",
+        "vragen":"Nog vragen?",
+        "stuur":"Stuur je vraag via de link hieronder",
+        "contacteer":"Contacteer ons",
+        "bekijkFaq":"Of bekijk de FAQ",
+        "faq":"FAQ"
+    },
+    "contact":{
+        "vragen":"Nog vragen?",
+        "stelZe":"Stel ze aan de contactpersoon.",
+        "contact":"Contacteer"
+    },
+    "Information":{
+        "locatie":"Locatie",
+        "prijzen":"Prijzen",
+        "slaapkamer":"Slaapkamer(s)",
+        "bedden":"Bed(den)",
+        "badkamer":"Badkamer(s)",
+        "beschikt":"Deze accommodatie beschikt over:",
+        "ervaring":"Ervaringen van onze reizigers",
+        "weerbericht":"Het weerbericht in ",
+        "dezeWeek":" deze week"
+    },
+    "Overview":{
+        
+    },
+
+
+    "DienstenF":{
+        "title":"Onze partners",
+        "transport":"Transportmiddelen",
+        "info":"Meer info",
+        "schoonmaak":"Schoonmaakdiensten",
+        "technisch":"Technische diensten"
+    },
+    "WordtHost":{
+        "informatie":"Informatie voor verhuurders",
+        "algemeen":"Algemeen",
+        "poetsen":"Poetsen",
+        "sleutel":"Sleutelbeheer",
+        "contacteer":"Contacteer ons",
+        "vakantiehuisplaatsen":"Vakantiehuis plaatsen",
+        "tekst11":"Wanneer u een vakantiehuis koopt en deze gebruikt voor korte termijn verhuur. Het geld dat u verdient met boekingen, \nkan u helpen bij het betalen van bepaalde uitgaven. \nBijvoorbeeld hypotheek, onroerende voorheffing, verzekering, onderhoud of reparatie. \nHoySpain verhuurt uw woning tegen de meest concurrerende tarieven. \nDit stelt ons in staat om onze huiseigenaren consequent de meeste huuropbrengsten te bieden voor hun investering.",
+        "tekst12":" HoySpain zorgt ervoor dat het hele verhuurproces veilig, soepel en gemakkelijk verloopt!",
+        "tekst13":"Door uw vakantiehuis te verhuren, komt er veel op uw weg. Dit omvat het promoten van uw vakantiehuis en het maken van een fotoreportage. Daarnaast het beantwoorden van boekingsaanvragen en het regelen van betalingen. En natuurlijk huurcontracten opstellen en de sleutels overhandigen. Tijdens de vakantie van uw gasten moet u beschikbaar zijn in geval van onverwachte futiliteiten etc. Al met al bijna een fulltime baan!",
+        "tekst14":"Je woont niet in Spanje en dat maakt het allemaal wat ingewikkelder. Laat ons u hierbij helpen. Wij zijn het aanspreekpunt voor u en voor uw gasten. En presenteer je vakantiehuis met een uitgebreide fotoreportage en huisbeschrijving. Dit doen we op onze website en verschillende internationale websites.",
+        "tekst15":"Natuurlijk kunt u of uw eigen gasten uw huis gebruiken wanneer u maar wilt. U kunt periodes die u zelf wilt gebruiken blokkeren. U bepaalt zelf wanneer wij uw woning mogen verhuren.",
+        "tekst16":"Wij van HoySpain ondersteunen u graag bij de verhuur van uw vakantiehuis. Zodra u aangeeft interesse te hebben om uw vakantiehuis door ons te verhuren. We maken graag een afspraak voor een kennismakingsgesprek en een bezichtiging. Voor beide partijen is het fijn om te weten met wie we samenwerken.",
+        "tekst17":"Voor meer informatie, vragen of een vrijblijvend kennismakingsgesprek / bezichtiging kan u steeds contact opnemen zonder verplichting.",
+        "tekst21":"Maak je geen zorgen meer over het schoonmaken en laat je gasten genieten van een zorgeloze vakantie met de hulp van HoySpain. Wij bieden uitgebreide schoonmaakdiensten voor huiseigenaren zoals jij !!",
+        "tekst22":"HoySpain is een vertrouwde naam in schoonmaakdiensten. Wij zorgen ervoor dat uw accommodatie vakantie-perfect is, zodat gasten ooh en aah zeggen vanaf het moment dat ze uw huis binnenkomen.",
+        "tekst23":"We gaan verder dan stofzuigen en afstoffen en gaan diep in de hoeken om uw ruimte te ontdoen van alle stof en vuil. We schuiven de kasten van de muur, reinigen de binnenkant van de kasten, ontdoen uw koelkast van de oude voedselgeuren, ontdooien de vriezer, desinfecteren en reinigen de badkamers.",
+        "tekst24":"Elke kamer in uw huis is anders dan de volgende, wat betekent dat elke kamer verschillende schoonmaakvereisten heeft. De keuken heeft andere behoeften dan uw slaapkamer. Daarom wilt u een team dat de unieke behoeften van verschillende gebieden grondig begrijpt. We brengen talloze uren per jaar door in huizen zoals die van u, wat betekent dat we een uitgebreid begrip hebben opgebouwd van wat werkt - en wat niet. We bieden geavanceerde technieken en processen die ervoor zorgen dat elke kamer de aandacht krijgt die het verdient.",
+        "tekst25":"HoySpain kan voldoen aan de verwachtingen van zowel u als uw gasten. Wanneer een gast vertrekt, duurt het vaak slechts enkele uren voordat de volgende arriveert. Ons schoonmaakteam voor vakantiewoningen kan deze klus aan",
+        "tekst26":"U kunt bij ons terecht voor de volgende schoonmaakwerkzaamheden:",
+        "list1":"Schoonmaak van vakantiehuizen",
+        "list2":"Schoonmaak voor privégebruik",
+        "list3":"Grondige reiniging",
+        "list4":"Reiniging van meubels en matrassen",
+        "list5":"Reiniging na renovatie",
+        "list6":"Wanneer u ons team inhuurt, kunt u erop vertrouwen dat u in de beste handen bent. Laat het vuile werk over aan ons team.",
+        "title2":"Property manager / Key Holder",
+        "tekst31":"Huiseigenaren kunnen gemakkelijk overweldigd raken door de taak om uit te zoeken hoe ze een vakantiewoning moeten beheren. Voor tweede huiseigenaren die op zoek zijn naar een verhuurbedrijf voor vakantieverhuur dat hun huurinkomsten maximaliseert, hun uitgaven minimaliseert en dit doet in een sfeer van vertrouwen, partnerschap en wederzijds respect, is HoySpain uw property manager.",
+        "tekst32":"We realiseren ons dat sommige huiseigenaren misschien hun eigen boekingen willen beheren, maar als ze eenmaal geboekt hebben, hebben ze een service nodig om vanaf daar te reizen. Het HoySpain Guest Management-programma biedt deze service voor u. Een van onze verantwoordelijkheden als uw professionele vastgoedbeheerbedrijf is om uw ogen en oren te zijn terwijl u niet bij de accommodatie bent.",
+        "tekst33":"Een geweldige gastervaring is altijd ons doel. Een hoog gastenbehoud wordt bereikt door alleen vakantieverhuur van hoge kwaliteit te vertegenwoordigen en door proactief vastgoedonderhoud, voorbeeldige huishouding, responsieve gastenservice en zorgvuldige follow-up. We ontmoeten en begroeten al onze gasten in de vakantiewoning en geven een rondleiding, instructies voor de voorzieningen, beoordelen de stad en beantwoorden eventuele vragen. Onze teamleden zijn beschikbaar om te helpen met elke behoefte van gasten tijdens hun verblijf. We zullen dus voor aankomst met gasten corresponderen, persoonlijk ontmoeten en begroeten en ook een 24-uurs on-call gastondersteuning.\nKortom, wat wij voor u als vastgoedbeheerder kunnen betekenen:",
+        "tekst34":"De “meet and greet” en staan 24 uur per dag voor u klaar wanneer zich onverwachte calamiteiten voordoen in uw accommodatie tijdens het verblijf van uw huurders.",
+        "tekst35":"Maak je geen zorgen meer over de schoonmaak en laat uw gasten genieten van een onbezorgde vakantie. Laat het vuile werk aan ons team over",
+        "tekst36":"Met dit in gedachten hebben we het grootste respect voor uw eigendom en behandelen we het alsof het ons eigendom is. Het is uw vakantiehuis, wij zorgen er gewoon voor!",
+        "title3":"Sleutelbeheer",
+        "tekst41":"Sleutelbeheer is gebaseerd op vertrouwen. We bewaren een 'extra' set sleutels voor u. Het is altijd fijn als er iemand in de buurt is met een extra sleutel. U moet niet denken dat u bij aankomst de sleutels bent vergeten of erger nog bent verloren ...",
+        "tekst42":"Heeft uw huis een alarmsysteem? En heeft u een contactpersoon nodig die u kunt opgeven bij de alarmcentrale? Dan kunt u onze gegevens zonder zorgen doorgeven.",
+        "tekst43":"7 redenen waarom een sleutelbeheerder een ´must´ is voor elke eigenaar van een woning in het buitenland:",
+        "list21":"Bijhouden van uw sleutels in geval u uw sleutels verliest of u uzelf heeft buitengesloten of als er iemand in uw woning moet zijn om een probleem op te lossen of in geval van renovatie-werken.",
+        "list22":"Om uw woning te poetsen als u het verhuurt of voor uzelf zodat u direct van een leuke vakantie kan genieten.",
+        "list23":"Voor de regelmatige bezoeken aan uw woning voor o.a. verluchting, doorspoelen van toiletten, planten water te geven, leegmaken van de brievenbus en visuele controles (vb ongedierte, inbraak of waterschade).",
+        "list24":"Indien u uw woning verhuurt, om uw gasten te ontvangen (ontvangst, contactpersoon, poetsen van de woning en wassen van het linnen).",
+        "list25":"Hij kan ook zorgen voor luchthaven transfers.",
+        "list26":"De sleutelbeheerder is iemand die het hele jaar door in Spanje woont. Hij kent de regio en is uw persoonlijke contact persoon. Hij kan u helpen met alle vragen of problemen die u zou kunnen hebben.",
+        "list27":"Hij biedt vaak ook extra diensten aan en heeft betrouwbare contacten voor allerlei bouwwerken, installaties van airco, ontwerp en onderhoud van de tuin, onderhoud van het zwembad, schilderwerken , etc."
+    }    
+
+}

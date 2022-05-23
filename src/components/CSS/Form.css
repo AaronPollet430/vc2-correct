@@ -1,0 +1,89 @@
+input {
+  margin: 1.2rem 0;
+}
+
+.form-container {
+  display: block;
+  border: 2px;
+  width: 50%;
+  background: white;
+  opacity: 0.8;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #ecf4fe;
+}
+
+.form-container h1 {
+  padding: 0.5rem;
+  background: #ecf4fe;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin: 0.5rem;
+  margin-bottom: 0;
+}
+
+.form-container label {
+  padding-bottom: 0.2rem;
+}
+
+.form-container label,
+input {
+  color: #077b88;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+}
+
+.form-container input[type='text'] {
+  margin: 0;
+}
+
+.form-container input[type='password'],
+input[type='password2'],
+input[type='email'] {
+  margin: 0;
+}
+
+.form-container input[type='submit'] {
+  margin: 0 auto;
+  width: 35%;
+  align-items: center;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+input[type='submit'],
+button {
+  font: inherit;
+}
+
+table th,
+table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+table th {
+  background: var(--light-color);
+}

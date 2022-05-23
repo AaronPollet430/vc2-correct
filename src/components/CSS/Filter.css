@@ -1,0 +1,78 @@
+.filter_wrapper {
+  text-align: center;
+  justify-content: center;
+}
+.filter_wrapper > h2 {
+  color: white;
+  text-align: center;
+}
+.filter_wrapper > hr {
+  border: 1px solid #f3cc91;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.filter-kamers {
+  background-color: white;
+  color: #077b88;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter-prijs-slider {
+  background-color: white;
+  color: #077b88;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter-score {
+  background-color: white;
+  color: #077b88;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.filter-aanbiedingen {
+  background-color: white;
+  color: #077b88;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.filter-faciliteiten {
+  background-color: white;
+  color: #077b88;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.filter_button {
+  background-color: #f3cc91;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #077b88;
+}
+.filter_button:hover {
+  color: lightblue;
+}
+
+.filter-title > h2 {
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid #f3cc91;
+}
+
+.filter-title > hr {
+  border: 1px solid #f3cc91;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 5px;
+}

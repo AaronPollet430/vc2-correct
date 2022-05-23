@@ -1,0 +1,77 @@
+.registration-main {
+  background-image: url('../../img/costadelsol.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.registration-container{
+  color: #077B88;
+  margin: 5rem 20rem !important;
+  width: 35rem;
+  padding: 0px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.registration-container .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.registration-container .card-header {
+  background-color: #ECF4FE;
+  border-radius: 10px 10px 0px 0px !important;
+  border: none;
+  padding: 0.75rem 2rem;
+}
+
+.registration-container .card-header h1 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.registration-container .card-body {
+  padding: 2rem 3rem;
+}
+
+.registration-container .form-label {
+  font-weight: bold;
+}
+
+.registration-container input {
+  color:#077B88;
+}
+
+.registration-container .registration-btn {
+  display:flex;
+  justify-content: center;
+}
+
+.registration-container button {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px;
+  color: white !important;
+}
+
+.registration-container a {
+  text-decoration: none;
+  color:#077B88;
+}
+
+.registration-container a:hover {
+  font-weight:bold;
+  text-decoration: underline;
+  color:#077B88;
+}
+
+.registration-container a:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.registration-container p {
+  color: red;
+}

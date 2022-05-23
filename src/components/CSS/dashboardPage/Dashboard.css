@@ -1,0 +1,173 @@
+.dashboard-container {
+  background-color: #ECF4FE;
+}
+
+.dashboard-container .dashboard-menu {
+  background-color: #077B88;
+  width: 20rem;
+  height: 100%;
+  color: white;
+  margin: 0px;
+}
+
+.dashboard-container .dashboard-menu h3 {
+  padding: 2rem 2rem;
+}
+
+.dashboard-container .dashboard-menu .nav-link {
+  padding: 0.5rem 2rem;
+}
+
+.dashboard-container .dashboard-menu a {
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.dashboard-container .dashboard-menu a:hover {
+  background-color: #F3CC91;
+  color: #077B88;
+  border-bottom: none !important;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.dashboard-container .user-profile-menu {
+  padding-top: 1.5rem;
+  border-top: 1px solid #ECF4FE;
+}
+
+.dashboard-container .user-profile-menu a {
+  width: 100%;
+}
+
+.dashboard-container .user-role {
+  padding: 0rem 2rem;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.dashboard-container .user-role button {
+  background-color: #077B88 !important;
+  color: white !important;
+  border: 3px solid #F3CC91 !important;
+  width: 10rem !important;
+  border-radius: 10px;
+  font-size: 14pt !important;
+  font-weight: bold;
+}
+
+.dashboard-container .user-role button:hover {
+  background-color: #F3CC91 !important;
+  color: #077B88 !important;
+  border: 3px solid #F3CC91 !important;
+  width: 10rem !important;
+  border-radius: 10px;
+}
+
+.dashboard-container .user-role .dropdown {
+  background-color: #077B88;
+}
+
+.dashboard-container .user-role .dropdown-item {
+  color: #077B88;
+}
+
+.dashboard-container .user-role .dropdown-item:hover {
+}
+
+.dashboard-container .user-profile-menu .logout-btn {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+  width: 100%;
+}
+
+.dashboard-container .dashboard-menu .logout-btn button {
+  background-color: #F36363 !important;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14pt !important;
+}
+
+.dashboard-container .dashboard-menu .logout-btn button:hover {
+  background-color: #F3CC91 !important;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14pt !important;
+}
+
+/* CONTENT */
+
+.dashboard-content {
+  color: #077B88;
+  padding: 2rem 3rem;
+  
+}
+
+.dashboard-content h1 {
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 3px solid #F3CC91;
+  width: 18rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-content .card {
+  border-radius: 10px;
+  border: 2px solid #077B88;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dashboard-content .card-header {
+  background-color: #077B88;
+  color: white;
+  font-size: 18pt;
+  font-weight: bold;
+  border-radius: 6px 6px 0px 0px !important;
+  padding: 1rem 2rem;
+}
+
+.dashboard-content .card-body {
+  padding: 0px;
+}
+
+.dashboard-content .card-body .row .col {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #077B88;
+}
+
+.dashboard-content .days-title {
+  background-color: #ECF4FE;
+  margin: 0px;
+}
+
+.dashboard-content .days-title h5 {
+  font-weight: bold;
+}
+
+.dashboard-content .agenda-data {
+  margin: 0px;
+  height: 8rem;
+  
+}
+
+.dashboard-content .agenda-data h5{
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-content .agenda-data .col:first-child {
+  border-radius: 0px 0px 0px 7px !important;
+}
+
+.dashboard-content .agenda-data .col:last-child {
+  border-radius: 0px 0px 7px 0px !important;
+}

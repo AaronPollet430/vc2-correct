@@ -1,0 +1,250 @@
+.booking-input {
+  width: 35rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #077B88;
+  font-weight: bold;
+  margin: 0px 2rem;
+}
+.booking-container {
+  margin-left:auto;
+  padding-top :3rem;
+  padding-bottom :3rem;
+}
+
+.booking-container .card1 .col:first-child,
+.booking-container .card2 .col:first-child,
+{
+  margin: 0px !important;
+}
+
+.booking-container .booking-title {
+  background-color: #ECF4FE;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 5px 25px;
+}
+
+.booking-container .booking-body {
+  background-color: white;
+  border-radius: 0px 0px 10px 10px !important;
+  padding: 15px 25px;
+}
+
+.booking-body h5 {
+  background-color: #077B88;
+  color: white;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.booking-container .booking-body input{
+  background-color: white;
+  border: 2px solid #077B88;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.totalPers {
+  width: 17rem;
+  border-top: 2px solid #077B88;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.totalPers p {
+  margin-bottom: 0px;
+}
+
+.totalPers small {
+  color: gray;
+  font-weight: normal;
+}
+
+.booking-insurance-extras {
+  margin-bottom: 20px;
+}
+
+.booking-info label,
+.booking-insurance-extras label,
+.booking-holder label
+{
+  padding: 0px 15px;
+}
+
+.booking-holder input
+{
+  width: 20rem !important;
+}
+
+/**/
+.booking-info p {
+  margin: 0px;
+  padding: 1rem 1rem;
+}
+
+.booking-info .date-btn {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #077B88;
+  margin: 0rem 1rem;
+}
+
+.booking-info .nrppl .col {
+  width: 2rem;
+}
+.booking-info .nrppl .col:last-child {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.booking-info button {
+  width: 12rem;
+  border-radius: 10px;
+  margin: 1rem 0px;
+  color: white !important;
+}
+
+.booking-info .nrppl .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-info .nrppl button {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 7px;
+  margin: 1rem 0.5rem;
+}
+
+.booking-info .nrppl input {
+  width: 3rem;
+  margin: 1rem 0.5rem;
+}
+
+.booking-info .nrppl .row:last-child {
+  margin: 0px 1px;
+}
+
+.booking-info .nrppl .row:last-child p{
+  padding: 0rem 0rem 2rem 1rem;
+  color: gray;
+  font-weight: normal;
+}
+
+/* EXTRA'S */
+.booking-insurance-extras h5 {
+  margin-bottom: 15px;
+}
+
+.booking-insurance-extras p {
+  margin: 0rem 1rem;
+  width: 16rem;
+}
+
+.booking-insurance-extras .row:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.booking-insurance-extras select {
+  border: 2px solid #077B88;
+  border-radius:10px;
+  color: #077B88;
+  padding: 5px 0.5rem;
+  width: 5rem;
+}
+
+.booking-insurance-extras .row:nth-child(2) p {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.booking-insurance-extras .form-control {
+  margin: 0px 0rem 1.5rem 1.5rem;
+  width: 31rem;
+}
+
+/**/
+.booking-holder p {
+  margin-left: 0.5rem;
+}
+
+.booking-holder .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-holder .row .col:first-child p{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.booking-holder .err-msg {
+  color: red;
+  font-weight: normal;
+  width: 50rem;
+  margin-bottom: 1rem;
+}
+
+/*BUTTON*/
+
+.booking-btn {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.booking-btn button {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-size: 14pt !important;
+  width: 10rem;
+}
+
+/* BOOKING INPUT */
+.booking-overview {
+  width: 25rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  font-weight: bold;
+  margin: 0px 2rem;
+  background-color: #077B88;
+}
+
+.overview-header-title,
+.overview-body {
+  padding: 10px 25px;
+}
+
+.booking-overview img {
+  height: 15rem !important;
+  width: 25rem;
+}
+
+.overview-body .overview-data {
+  font-size: 13pt;
+  font-weight: normal;
+}
+
+.overview-body .overview-totalPrice {
+  border-top: 2px solid white;
+  padding-top: 1rem;
+}
+
+.overview-body .overview-totalPrice * {
+  font-size: 16pt;
+  font-weight: bold;
+}

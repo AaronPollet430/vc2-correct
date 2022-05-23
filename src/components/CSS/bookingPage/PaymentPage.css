@@ -1,0 +1,23 @@
+.payment-container {
+  display: flex;
+  width: 100vw;
+  height: 74vh;
+}
+
+.payment-container .card {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.booking-paymethod {
+  height: 30px;
+  maring: 0 auto;
+}
+
+.paymethod-radio {
+  padding: 10px;
+  margin: 0 auto;
+}

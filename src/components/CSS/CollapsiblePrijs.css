@@ -1,0 +1,52 @@
+.collapsible .content {
+  padding: 6px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.collapsible .header {
+  display: flex;
+  background-color: white;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content > p {
+  font-size: 14px;
+}
+
+.price_input {
+  width: 100%;
+  display: flex;
+  margin: 10px 0 20px;
+}
+.price_input .field {
+  height: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field span {
+  margin-top: 10px;
+}
+
+.field input {
+  width: 50%;
+  height: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #999;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 14px;
+  -moz-appearance: textfield;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}

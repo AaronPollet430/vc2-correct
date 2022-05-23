@@ -1,0 +1,154 @@
+
+{
+    "Searchbar":{
+       "titel": "Trouvez votre destination",
+       "bestemming":"Destination",
+       "bestemmingInput":"Ville, région, ...",
+       "incheck":"Inchecken",
+       "uitcheck":"Checkout",
+       "wanneer":"Quand ?",
+       "AantalP":"Nombre de personnes",
+       "dropdown":"Ou tapez vous-même une option",
+       "zoeken":"Recherche"
+    },
+    "DienstenHome":{
+        "titel": "Nos partenaires",
+        "knop":"Plus d'informations"
+    },
+    "Footer":{
+        "info":"Informations utiles",
+        "overons":"A propos de nous",
+        "contact":"Contact",
+        "faq":"FAQ",
+        "verzekering":"Assurance",
+        "nieuwsbrief":"S'inscrire à la newsletter",
+        "inschrijven":"Registre",
+        "email":"Votre adresse e-mail",
+        "volgons":"Suivez-nous",
+        "voorwaarden":"Conditions générales d'utilisation | Déclaration et politique de confidentialité | WebTweak © 2022"
+    },
+    "MediumCard":{
+        "bekijk":"Voir"
+    },
+    "NavBar":{
+        "brand":"HoySpain",
+        "home":"Accueil",
+        "accomodaties":"Hébergement",
+        "host":"Devenir hôte",
+        "diensten":"Services",
+        "contact":"Contact",
+        "inloggen":"Connexion",
+        "registreren":"Registre",
+        "account": "Mon compte"
+    },
+    "TopListing":{
+        "toppers":"Découvrez nos toppers !"
+    },
+    "ZoekResultaat":{
+        "nacht":" / nuit",
+        "info":"plus d'infos",
+
+        "gasten":"invités",
+        "kamer":"chambre",
+        "kamers":"Chambres",
+        "badkamer":"salle de bain",
+        "badkamers":"salles de bains",
+        "zwembad":"piscine",
+        "parking":"parking",
+        "wifi":"wifi",
+        "huisdier":"animaux domestiques autorisés",
+        "tv":"TV"
+    },
+    "Accomodaties":{
+        "titel":"Hébergement",
+        "resultaten":"résultats trouvés"
+    },
+    "Inloggen":{
+        "emailIncor":"L'adresse électronique n'est pas correcte.",
+        "wachtwoordIncor":"Le mot de passe est incorrect.",
+        "eenfoutje":"Une erreur s'est produite lors de la connexion.",
+        "titel":"Login",
+        "email":"Adresse électronique",
+        "ww":"Mot de passe",
+        "inlog":"Inloggen"
+    },
+    "Registreer":{
+        "naamCorrectie":"Le nom ne peut être composé que de lettres, de traits d'union et d'une apostrophe.",
+        "invalidEmail":"L'adresse électronique n'est pas correcte.",
+        "invalidPasswoord":"Le mot de passe doit avoir une longueur d'au moins 8 caractères avec 1 lettre minuscule, 1 lettre majuscule, 1 chiffre et 1 caractère spécial.",
+        "2eWWinvalid":"Le mot de passe répété est incorrect.",
+        "telefoonInvalid":"Ce n'est pas un numéro de téléphone valide.",
+        "foutje":"Une erreur s'est produite lors de l'enregistrement.",
+        "titel":"Registre",
+        "voornaam":"Prénom",
+        "achternaam":"Nom de famille",
+        "email":"Adresse électronique",
+        "ww":"Mot de passe",
+        "bevestigWW":"Confirmer le mot de passe",
+        "telefoon":"Numéro de téléphone",
+        "registeren":"Registre"
+    },
+
+    "Filter":{
+        "titel":"Filtres",
+        "kamers":"Chambres",
+        "aantalKamers":"nombre de pièces",
+        "prijsPnacht":"prix par nuit",
+        "prijsPnachtInput":"utiliser le curseur pour le prix minimum et maximum",
+        "score":"score des invités",
+        "types":"types de logement",
+        "accoTypeLabels": {
+            "huis": "Maison",
+            "appartement": "Appartement",
+            "loft": "Loft",
+            "b&b": "Chambre d'hôte",
+            "privé": "Salle privée",
+            "gedeeld": "Chambre partagée",
+            "villa" : "Villa"
+        },
+        "facili":"facilités",
+        "faciliLabels": {
+            "zwembad": "piscine",
+            "parking": "parking",
+            "wifi": "wifi",
+            "strand": "plage",
+            "auto":"location de voitures"
+        },
+        "resultaat": "résultat",
+        "resultaten":"résultats"
+    },
+    "activiteiten":{
+        "titel":"Activités",
+        "picks":"Les meilleurs choix",
+        "tours":"Tours",
+        "resto":"Restaurants",
+        "bars":"Bars"
+    },
+    "Verhuurder":{
+        "titel":"Devenir propriétaire ?",
+        "verhuurNu":"Louez votre maison de vacances rapidement et facilement !",
+        "info":"Plus d'informations",
+        "vragen":"Vous avez encore des questions ?",
+        "stuur":"Envoyez votre question via le lien ci-dessous",
+        "contacteer":"Nous contacter",
+        "bekijkFaq":"Ou consultez la FAQ",
+        "faq":"FAQ"
+    },
+    "contact":{
+        "vragen":"Vous avez encore des questions ?",
+        "stelZe":"Demandez à la personne de contact.",
+        "contact":"Contact"
+    },
+    "Information":{
+        "locatie":"Localisation",
+        "prijzen":"Prix",
+        "slaapkamer":"Chambre(s)",
+        "bedden":"Lit(s)",
+        "badkamer":"Salle(s) de bains",
+        "beschikt":"Ce logement comprend :",
+        "ervaring":"Expériences de nos voyageurs",
+        "weerbericht":"Prévisions météorologiques en ",
+        "dezeWeek":" pour cette semaine"
+    }
+
+}

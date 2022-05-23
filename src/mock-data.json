@@ -1,0 +1,6 @@
+[
+  {"id": 1, "thumbnail": "../../../public/img/accommodatie_01.jpeg", "locatie": "Mallorca", "omschrijving": "4 slaapkamers - 2 badkamers - zwembad", "title":"El Camino", "rating":"4.5", "prijs": 170, "aantalNachten": 5 },
+  {"id": 2, "thumbnail": "../img/accommodatie_02.jpeg", "locatie": "Malaga", "omschrijving": "3 slaapkamers - 5 bedden - 2 badkamers - zwembad", "title":"Modern Family Home", "rating":"4.7", "prijs": 170, "aantalNachten": 5 },
+  {"id": 3, "thumbnail": "../img/accommodatie_03.jpeg", "locatie": "Mallorca", "omschrijving": "8 gasten - 4 slaapkamers - 6 bedden - 2,5 badkamers - Wifi - zwembad", "title":"Hacienda la Reine", "rating":"4.91", "prijs": 170, "aantalNachten": 5}
+  
+]
